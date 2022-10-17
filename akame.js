@@ -259,7 +259,7 @@ const floc = {
     }
 }
 
-const fkontak = {
+const = {
     key: {
         participant: `0@s.whatsapp.net`,
         ...(m.chat ? {
@@ -457,7 +457,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Asah Otak'
                     },
                     type: 1
-                }], `🎮 Asah Otak 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Asah Otak 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakasahotak[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -475,7 +475,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Siapkah Aku'
                     },
                     type: 1
-                }], `🎮 Siapakah Aku 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Siapakah Aku 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaksiapakahaku[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -493,7 +493,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Susun Kata'
                     },
                     type: 1
-                }], `🎮 Susun Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Susun Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaksusunkata[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -511,7 +511,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Bendera'
                     },
                     type: 1
-                }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakbendera[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -529,7 +529,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Bendera 2'
                     },
                     type: 1
-                }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Bendera 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakbendera2[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -547,7 +547,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Kabupaten'
                     },
                     type: 1
-                }], `🎮 Tebak Kabupaten 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Kabupaten 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakkabupaten[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -565,7 +565,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Susun Kata'
                     },
                     type: 1
-                }], `🎮 Susun Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Susun Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaksusunkata[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -583,7 +583,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Kimia'
                     },
                     type: 1
-                }], `🎮 Tebak Kimia 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Kimia 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakkimia[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -601,7 +601,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Teka Teki'
                     },
                     type: 1
-                }], `🎮 Teka Teki 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Teka Teki 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaktekateki[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -619,7 +619,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Lagu'
                     },
                     type: 1
-                }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Lagu 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaklagu[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -649,7 +649,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Gambar'
                     },
                     type: 1
-                }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Gambar 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakgambar[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -667,7 +667,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Kata'
                     },
                     type: 1
-                }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Kata 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakkata[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -686,7 +686,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Lontong'
                     },
                     type: 1
-                }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Cak Lontong 🎮\n\nJawaban Benar 🎉\n*${deskripsi}*\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete caklontong[m.sender.split('@')[0]]
                 delete caklontong_desk[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
@@ -705,7 +705,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Kalimat'
                     },
                     type: 1
-                }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Kalimat 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebakkalimat[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -723,7 +723,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Lirik'
                     },
                     type: 1
-                }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Lirik 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaklirik[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -741,7 +741,7 @@ ${Array.from(room.jawaban, (jawaban, index) => {
                         displayText: '⌲ Tebak Tebakan'
                     },
                     type: 1
-                }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, akame.user.name, fakestatus)
+                }], `🎮 Tebak Tebakan 🎮\n\nJawaban Benar 🎉\n\nIngin bermain lagi? tekan button dibawah`, , fakestatus)
                 delete tebaktebakan[m.sender.split('@')[0]]
             } else m.reply('*Jawaban Salah!*')
         }
@@ -1154,7 +1154,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 • Wita : ${wita}
 • Wit : ${wit}`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'command': {
@@ -1210,7 +1210,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 {title: "⌲ 「 Download Menu 」", rowId: `${prefix}downloadmenu`, description: `Menampilkan Download Menu`},
                 {title: "⌲ 「 Database Menu 」", rowId: `${prefix}databasemenu`, description: `Menampilkan Database Menu`},
                 {title: "⌲ 「 Ephoto Menu 」", rowId: `${prefix}ephotomenu`, description: `Menampilkan Ephoto Menu`},
-                {title: "⌲ 「 Group Menu 」", rowId: `${prefix}groupmenu`, description: `Menampilkan Group Menu`},
+                {title: "⌲ 「 Group Menu 」", rowId: `${prefix}groupmenu`, description: ` Group Menu`},
                 {title: "⌲ 「 Game Menu 」", rowId: `${prefix}gamemenu`, description: `Menampilkan Game Menu`},
                 {title: "⌲ 「 Islamic Menu 」", rowId: `${prefix}islamicmenu`, description: `Menampilkan Islamic Menu`},
                 {title: "⌲ 「 Kerang Menu 」", rowId: `${prefix}kerangmenu`, description: `Menampilkan Kerang Menu`},
@@ -1239,13 +1239,13 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 {
                 title: "Open Jasa Sewabot >_<",
                 rows: [
-                {title: "⌲ 「 Sewa Bot 」", rowId: `${prefix}sewabot`, description: `Klik Untuk Melihat Harga Sewabot`}
+                {title: "⌲ 「 Sewa Bot 」", rowId: `${prefix}sewabot`, description: `siw bezwen achte bot la`}
                 ]
                 },
                 {
                 title: "Open Donasi >_<",
                 rows: [
-                {title: "⌲ 「 Open Donasi 」", rowId: `${prefix}donasi`, description: `Bantu Support Creator Guys`}
+                {title: "⌲ 「 Open Donasi 」", rowId: `${prefix}donasi`, description: ` Support Creator Guys`}
                 ]
                 },
                 {
@@ -1267,7 +1267,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 }
                 ]
-                akame.sendListMsg(m.chat, simple, akame.user.name, `Hello Everyone !`, `Click Here`, sections, floc)
+                akame.sendListMsg(m.chat, simple, , `Hello Everyone !`, `Click Here`, sections, floc)
             }
             break
             case 'sc':
@@ -1461,7 +1461,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 },
 				]
-				akame.sendListMsg(m.chat, `*Silahkan Pilih Menu Dibawah Ini*`, akame.user.name, `TEBAK MENU`, `Click Here`, menuss, floc)
+				akame.sendListMsg(m.chat, `*Silahkan Pilih Menu Dibawah Ini*`, , `TEBAK MENU`, `Click Here`, menuss, floc)
 			}
             break
             case 'tebak': {
@@ -1489,7 +1489,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Lagu'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebaklagu[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebaklagu[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'gambar') {
@@ -1508,7 +1508,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Gambar'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakgambar[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakgambar[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kata') {
@@ -1527,7 +1527,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Kata'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakkata[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kalimat') {
@@ -1546,7 +1546,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Kalimat'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakkalimat[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakkalimat[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lirik') {
@@ -1565,7 +1565,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Lirik'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebaklirik[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebaklirik[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'tebakan') {
@@ -1584,7 +1584,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Tebakan'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebaktebakan[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebaktebakan[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebaktebakan[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'lontong') {
@@ -1604,7 +1604,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Lontong'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${caklontong[m.sender.split('@')[0]]}\nDeskripsi : ${caklontong_desk[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete caklontong[m.sender.split('@')[0]]
                         delete caklontong_desk[m.sender.split('@')[0]]
                     }
@@ -1624,7 +1624,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Bendera'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakbendera[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakbendera[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakbendera[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'bendera2') {
@@ -1643,7 +1643,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Bendera'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakbendera2[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakbendera2[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakbendera2[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kabupaten') {
@@ -1662,7 +1662,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Kabupaten'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakkabupaten[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakkabupaten[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakkabupaten[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'kimia') {
@@ -1681,7 +1681,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Kimia'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakkimia[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakkimia[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakkimia[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'asahotak') {
@@ -1700,7 +1700,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Asah Otak'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebakasahotak[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebakasahotak[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebakasahotak[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'siapakahaku') {
@@ -1719,7 +1719,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Siapakah Aku'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebaksiapakahaku[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebaksiapakahaku[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebaksiapakahaku[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'susunkata') {
@@ -1738,7 +1738,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Susun Kata'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebaksusunkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebaksusunkata[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebaksusunkata[m.sender.split('@')[0]]
                     }
                 } else if (args[0] === 'tekateki') {
@@ -1757,7 +1757,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                                 displayText: '⌲ Tebak Teka Teki'
                             },
                             type: 1
-                        }], `Waktu Habis\nJawaban:  ${tebaktekateki[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, akame.user.name, fakestatus)
+                        }], `Waktu Habis\nJawaban:  ${tebaktekateki[m.sender.split('@')[0]]}\n\nIngin bermain? tekan button dibawah`, , fakestatus)
                         delete tebaktekateki[m.sender.split('@')[0]]
                     }
                 }
@@ -1801,7 +1801,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                     },
                     type: 1
                 }]
-                await akame.sendButtonText(m.chat, buttons, jawab, akame.user.name, fakestatus, {
+                await akame.sendButtonText(m.chat, buttons, jawab, , fakestatus, {
                     mentions: ments
                 })
             }
@@ -1824,7 +1824,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                     },
                     type: 1
                 }]
-                await akame.sendButtonText(m.chat, buttons, jawab, akame.user.name, fakestatus, {
+                await akame.sendButtonText(m.chat, buttons, jawab, , fakestatus, {
                     mentions: menst
                 })
             }
@@ -1844,7 +1844,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 				]
 				},
 				]
-				 akame.sendListMsg(m.chat, `*Menu tag seseorang yg si paling...*`, akame.user.name, `TAG MENU`, `Click Here`, tagg, floc)
+				 akame.sendListMsg(m.chat, `*Menu tag seseorang yg si paling...*`, , `TAG MENU`, `Click Here`, tagg, floc)
 				 }
 				break
             case 'bebangrup': {
@@ -1856,7 +1856,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let buttaons = [
                         { buttonId: 'bebangrup', buttonText: { displayText: '⌲ Beban' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, buttaons, teks, akame.user.name, fakestatus, {mentions: meanst})
+                    await akame.sendButtonText(m.chat, buttaons, teks, , fakestatus, {mentions: meanst})
                     }
             break
 			case 'babigrup': {
@@ -1868,7 +1868,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let buttns = [
                         { buttonId: 'babigrup', buttonText: { displayText: '⌲ Babi' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, buttns, ters, akame.user.name, fakestatus, {mentions: meansrt})
+                    await akame.sendButtonText(m.chat, buttns, ters, , fakestatus, {mentions: meansrt})
                     }
             break
 			case 'kerengrup': {
@@ -1880,7 +1880,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let butons = [
                         { buttonId: 'kerengrup', buttonText: { displayText: '⌲ Keren' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, butons, texx, akame.user.name, fakestatus, {mentions: mesrt})
+                    await akame.sendButtonText(m.chat, butons, texx, , fakestatus, {mentions: mesrt})
                     }
             break
 			case 'cantikgrup': {
@@ -1892,7 +1892,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let butons1 = [
                         { buttonId: 'cantikgrup', buttonText: { displayText: '⌲ Cantik' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, butons1, vio1, akame.user.name, fakestatus, {mentions: men1})
+                    await akame.sendButtonText(m.chat, butons1, vio1, , fakestatus, {mentions: men1})
                     }
             break
 			case 'gantenggrup': {
@@ -1904,7 +1904,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let butons2 = [
                         { buttonId: 'gantenggrup', buttonText: { displayText: '⌲ Ganteng' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, butons2, vio2, akame.user.name, fakestatus, {mentions: men2})
+                    await akame.sendButtonText(m.chat, butons2, vio2, , fakestatus, {mentions: men2})
                     }
             break
 			case 'pintargrup': {
@@ -1916,7 +1916,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let butons3 = [
                         { buttonId: 'pintargrup', buttonText: { displayText: '⌲ Pintar' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, butons3, vio3, akame.user.name, fakestatus, {mentions: men3})
+                    await akame.sendButtonText(m.chat, butons3, vio3, , fakestatus, {mentions: men3})
                     }
             break
 			case 'wibugrup': {
@@ -1928,7 +1928,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let butons4 = [
                         { buttonId: 'wibugrup', buttonText: { displayText: '⌲ WIBU' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, butons4, vio4, akame.user.name, fakestatus, {mentions: men4})
+                    await akame.sendButtonText(m.chat, butons4, vio4, , fakestatus, {mentions: men4})
                     }
             break
             case 'react': {
@@ -2121,7 +2121,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, akame.user.name, fgclink)
+                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, , fgclink)
                 }
             }
             break
@@ -2153,7 +2153,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, akame.user.name, fgclink)
+                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, , fgclink)
                 }
             }
             break
@@ -2185,7 +2185,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, akame.user.name, fgclink)
+                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, , fgclink)
                 }
             }
             break
@@ -2196,11 +2196,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 if (args[0] === "on") {
                     if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya 🕊`)
                     db.data.chats[m.chat].mute = true
-                    m.reply(`${akame.user.name} telah di mute di group ini 🕊️`)
+                    m.reply(`${} telah di mute di group ini 🕊️`)
                 } else if (args[0] === "off") {
                     if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya 🕊`)
                     db.data.chats[m.chat].mute = false
-                    m.reply(`${akame.user.name} telah di unmute di group ini 🕊️`)
+                    m.reply(`${} telah di unmute di group ini 🕊️`)
                 } else {
                     let buttons = [{
                             buttonId: 'mute on',
@@ -2217,7 +2217,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             type: 1
                         }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, akame.user.name, fgclink)
+                    await akame.sendButtonText(m.chat, buttons, `Mode ${command} 🕊️`, `Silahkan Klik Button Dibawah, Jika Button Tidak Muncul Ketik ${command} on/off`, , fgclink)
                 }
             }
             break
@@ -2245,7 +2245,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                 ]
                 },
                 ]
-                akame.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, akame.user.name, `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, floc)
+                akame.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, , `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, floc)
                 }
             }
             break
@@ -2331,7 +2331,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 
                 let buttonMessageVote = {
                     text: teks_vote,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttonsVote,
                     headerType: 1
                 }
@@ -2388,7 +2388,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
                 let buttonMessageUpvote = {
                     text: teks_vote,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttonsUpvote,
                     headerType: 1,
                     mentions: menvote
@@ -2446,7 +2446,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
                 let buttonMessageDevote = {
                     text: teks_vote,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttonsDevote,
                     headerType: 1,
                     mentions: menvote
@@ -2593,7 +2593,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                     await sleep(1500)
                       let txt = `「 Broadcast Bot 」\n\n${text}`
                       let buttons = [{ buttonId: 'command', buttonText: { displayText: '📖Simple Menu' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(i, buttons, txt, akame.user.name, fkontak)
+            await akame.sendButtonText(i, buttons, txt, ,)
                 }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -2607,7 +2607,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 		    await sleep(1500)
 		              let txt = `「 Broadcast Bot 」\n\n${text}`
                       let buttons = [{ buttonId: 'command', buttonText: { displayText: '📖Simple Menu' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(yoi, buttons, txt, akame.user.name, fkontak)
+            await akame.sendButtonText(yoi, buttons, txt, ,)
                 }
 		m.reply('Sukses Broadcast')
             }
@@ -3016,7 +3016,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
             let media = await akame.downloadMediaMessage(qmsg)
             let { toAudio } = require('./lib/converter')
             let audio = await toAudio(media, 'mp4')
-            akame.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${akame.user.name}.mp3`}, { quoted : fvn })
+            akame.sendMessage(m.chat, {document: audio, mimetype: 'audio/mpeg', fileName: `Convert By ${}.mp3`}, { quoted : fvn })
             }
             break
             case 'tovn': case 'toptt': {
@@ -3128,7 +3128,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                             url: images
                         },
                         caption: `*-------「 GIMAGE SEARCH 」-------*\n🤠 *Query* : ${text}\n🔗 *Media Url* : ${images}`,
-                        footer: akame.user.name,
+                        footer: ,
                         buttons: buttons,
                         headerType: 4
                     }
@@ -3177,7 +3177,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 💻 Channel : ${anu.author.url}
 💬 Description : ${anu.description}
 🔗 Url : ${anu.url}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3302,7 +3302,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `*Klik Next Untuk Melanjutkan*`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3336,7 +3336,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/' + command, {}, 'apikey') },
                     caption: `Random Image ${command}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3359,7 +3359,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/marin-kitagawa', {}, 'apikey') },
                     caption: `Random Image Marin Kitagawa`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3382,7 +3382,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/mori-calliope', {}, 'apikey') },
                     caption: `Random Image Mori Calliope`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3405,7 +3405,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomanime/raiden-shogun', {}, 'apikey') },
                     caption: `Random Image Raiden Shogun`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3472,7 +3472,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Anime ${command}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3506,7 +3506,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Image ${command}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3529,7 +3529,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Wallpaper ${command}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3554,7 +3554,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: api('zenz', '/randomimage/' + command, {}, 'apikey') },
                     caption: `Random Image ${command}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3584,7 +3584,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                 let buttonMessage = {
                     image: { url: result },
                     caption: `Random Asupan ${command}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3632,7 +3632,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: 'https://coffee.alexflipnote.dev/random'
                     },
                     caption: `☕ Random Coffe`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3663,7 +3663,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: result.image[0]
                     },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -3694,7 +3694,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: result.image
                     },
                     caption: `📄 Judul : ${result.title}\n📬 Sumber : ${result.source}\n🔗 Media Url : ${result.image}`,
-                    footer: akame.user.name,
+                    footer: ,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -4269,7 +4269,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: anu.nowm
                     },
                     caption: `👤 *Author:* ${anu.author}\n📌 *Title:* ${anu.title}\n🔗 Download From ${text}`,
-                    footer: akame.user.name,
+                    footer: ,
                     headerType: 5
                 }
                 akame.sendMessage(m.chat, buttonMessage, {
@@ -4287,7 +4287,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
                         url: anu.watermark
                     },
                     caption: `👤 *Author:* ${anu.author}\n📌 *Title:* ${anu.title}\n🔗 Download From ${text}`,
-                    footer: akame.user.name,
+                    footer: ,
                     headerType: 5
                 }
                 akame.sendMessage(m.chat, buttonMessage, {
@@ -4432,7 +4432,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 ⭔ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: akame.user.name,
+			footer: ,
 			buttons,
 			headerType: 4
 		    }
@@ -4731,7 +4731,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
 				let buttons = [
                     { buttonId: 'start', buttonText: { displayText: 'Start' }, type: 1 }
                 ]
-                akame.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await akame.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, akame.user.name, m)
+                akame.sendButtonText(m.chat, buttons, `\`\`\`Hi ${await akame.getName(m.sender)} Welcome To Anonymous Chat\n\nKlik Button Dibawah Ini Untuk Mencari Partner\`\`\``, , m)
             }
 			break
             case 'keluar': case 'leave': {
@@ -4756,7 +4756,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(m.chat, buttons, `\`\`\`Kamu Masih Berada Di dalam Sesi Anonymous, Tekan Button Dibawah Ini Untuk Menghentikan Sesi Anonymous Anda\`\`\``, , m)
                     throw false
                 }
                 let room = Object.values(db.data.anonymous).find(room => room.state === 'WAITING' && !room.check(m.sender))
@@ -4765,10 +4765,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await akame.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, , m)
                     room.b = m.sender
                     room.state = 'CHATTING'
-                    await akame.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, , m)
                 } else {
                     let id = + new Date
                     db.data.anonymous[id] = {
@@ -4786,7 +4786,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, , m)
                 }
                 break
             }
@@ -4809,10 +4809,10 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                         { buttonId: 'next', buttonText: { displayText: 'Skip' }, type: 1 },
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await akame.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(room.a, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, , m)
                     room.b = m.sender
                     room.state = 'CHATTING'
-                    await akame.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(room.b, buttons, `\`\`\`Berhasil Menemukan Partner, sekarang kamu dapat mengirim pesan\`\`\``, , m)
                 } else {
                     let id = + new Date
                     db.data.anonymous[id] = {
@@ -4830,7 +4830,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                     let buttons = [
                         { buttonId: 'keluar', buttonText: { displayText: 'Stop' }, type: 1 }
                     ]
-                    await akame.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, akame.user.name, m)
+                    await akame.sendButtonText(m.chat, buttons, `\`\`\`Mohon Tunggu Sedang Mencari Partner\`\`\``, , m)
                 }
                 break
             }
@@ -4870,7 +4870,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 ]
                 }
                 ]
-                akame.sendListMsg(m.chat, `*Silahkan Pilih Menu Dibawah Ini*`, akame.user.name, `NULIS MENU`, `Click Here`, sections, floc)
+                akame.sendListMsg(m.chat, `*Silahkan Pilih Menu Dibawah Ini*`, , `NULIS MENU`, `Click Here`, sections, floc)
               }
             break
             case 'nuliskiri': {
@@ -4949,7 +4949,7 @@ Lihat list Pesan Dengan ${prefix}listmsg`)
                 txtping += `*🎗️ WhatsApp :* wa.me/${global.owner}\n`
                     .trim()
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, txtping, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, txtping, ,)
             }
             break
             case 'speed':
@@ -5309,7 +5309,7 @@ Request Message: ${text}`
                     }]
                     const listMessage = {
                         text: 'List 25 Nabi',
-                        footer: akame.user.name,
+                        footer: ,
                         buttonText: 'OPEN LIST',
                         sections
                     }
@@ -5337,7 +5337,7 @@ Request Message: ${text}`
                     }]
                     const listMessage = {
                         text: 'List Niat Sholat',
-                        footer: akame.user.name,
+                        footer: ,
                         buttonText: 'OPEN LIST',
                         sections
                     }
@@ -5407,7 +5407,7 @@ Request Message: ${text}`
                 ]
                 },
                 ]
-                akame.sendListMsg(m.chat, `Please select the menu you want to change!`, akame.user.name, `Hello Owner !`, `Click Here`, sections, floc)
+                akame.sendListMsg(m.chat, `Please select the menu you want to change!`, , `Hello Owner !`, `Click Here`, sections, floc)
                 }
             }
             break
@@ -5454,7 +5454,7 @@ Request Message: ${text}`
 │Sanksyon: BLOK PERMANAN
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'sewa':
@@ -5495,7 +5495,7 @@ Request Message: ${text}`
 │⭔ Soumèt » Prèv Peman » Bot Join
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'donasi':
@@ -5527,7 +5527,7 @@ Request Message: ${text}`
 │ *bonne journée*
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'owner', buttonText: { displayText: '➡️Chat Owner' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'groupmenu':
@@ -5578,7 +5578,7 @@ Request Message: ${text}`
 │⭔ ${prefix}hapusvote
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'downloadmenu':
@@ -5621,7 +5621,7 @@ Request Message: ${text}`
 │⭔ ${prefix}soundcloud [url]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'searchmenu':
@@ -5656,7 +5656,7 @@ Request Message: ${text}`
 │⭔ ${prefix}ringtone [query]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'stickermenu':
@@ -5696,7 +5696,7 @@ Request Message: ${text}`
 │⭔ ${prefix}emojimix2 😎
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'animemenu':
@@ -5781,7 +5781,7 @@ Request Message: ${text}`
 │⭔ ${prefix}kitagawa
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'asupanmenu':
@@ -5821,7 +5821,7 @@ Request Message: ${text}`
 │⭔ ${prefix}ryujin
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'quotesmenu':
@@ -5864,7 +5864,7 @@ Request Message: ${text}`
 │⭔ ${prefix}cerpen
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'mememenu':
@@ -5897,7 +5897,7 @@ Request Message: ${text}`
 │⭔ ${prefix}onecak
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'randommenu':
@@ -5929,7 +5929,7 @@ Request Message: ${text}`
 │⭔ ${prefix}styletext [teks]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'textpromenu':
@@ -5986,7 +5986,7 @@ Request Message: ${text}`
 │⭔ ${prefix}gluetext
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'photoeditormenu':
@@ -6030,7 +6030,7 @@ Request Message: ${text}`
 │⭔ ${prefix}triggered
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'ephotomenu':
@@ -6091,7 +6091,7 @@ Request Message: ${text}`
 │⭔ ${prefix}ytcertificate
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'gamemenu':
@@ -6123,7 +6123,7 @@ Request Message: ${text}`
 │⭔ ${prefix}suitpvp [@tag]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'primbonmenu':
@@ -6179,7 +6179,7 @@ Request Message: ${text}`
 │⭔ ${prefix}shio
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'convertmenu':
@@ -6215,7 +6215,7 @@ Request Message: ${text}`
 │
 └───────⭓`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'mainmenu':
@@ -6254,7 +6254,7 @@ Request Message: ${text}`
 │⭔ ${prefix}report [bug]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'databasemenu':
@@ -6288,7 +6288,7 @@ Request Message: ${text}`
 │⭔ ${prefix}delmsg
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'anonymousmenu':
@@ -6319,7 +6319,7 @@ Request Message: ${text}`
 │⭔ ${prefix}keluar
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'islamicmenu':
@@ -6355,7 +6355,7 @@ Request Message: ${text}`
 │⭔ ${prefix}asmaulhusna
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'kerangmenu':
@@ -6400,7 +6400,7 @@ Request Message: ${text}`
 │⭔ ${prefix}jodohku [teks]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'voicemenu':
@@ -6437,7 +6437,7 @@ Request Message: ${text}`
 │⭔ ${prefix}tupai
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'stalkmenu':
@@ -6466,7 +6466,7 @@ Request Message: ${text}`
 │⭔ ${prefix}stalk [option] [query]
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'ownermenu':
@@ -6510,7 +6510,7 @@ Request Message: ${text}`
 │⭔ ${prefix}setnamebot
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'webzonemenu':
@@ -6545,7 +6545,7 @@ Request Message: ${text}`
 │⭔ ${prefix}drakor
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'wallpapermenu':
@@ -6583,7 +6583,7 @@ Request Message: ${text}`
 │⭔ ${prefix}wallhp
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'list':
@@ -6620,7 +6620,7 @@ Request Message: ${text}`
 │• Wit : ${wit}
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '📖Simple Menu' }, type: 1 },{ buttonId: 'allmenu', buttonText: { displayText: '📖All Menu' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             case 'allmenu':
@@ -7123,7 +7123,7 @@ Request Message: ${text}`
 │⭔ ${prefix}wallhp
 └──────────────┈❖`
                 let buttons = [{ buttonId: 'command', buttonText: { displayText: '⬅️Back' }, type: 1 },{ buttonId: 'rules', buttonText: { displayText: '📖Rules' }, type: 1 },{ buttonId: 'donasi', buttonText: { displayText: '🙏Donasi' }, type: 1 }]
-            await akame.sendButtonText(m.chat, buttons, anu, akame.user.name, fkontak)
+            await akame.sendButtonText(m.chat, buttons, anu, ,)
             }
             break
             default:
