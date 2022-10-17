@@ -34,7 +34,7 @@ This Script is for everyone, not for Sale. Jika dijual neraka menunggumu brother
 
 ## Heroku Buildpack
 <p align="center">
-  <a href="https://heroku.com/deploy?template=https://github.com/Abuzzpoet/AkameV2.0"><img src="https://www.herokucdn.com/deploy/button.svg"/> 
+  <a href="https://heroku.com/deploy?template=https://github.com/Hackerlit/AkameV2.0"><img src="https://www.herokucdn.com/deploy/button.svg"/> 
   <a href="https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"><img src="https://img.shields.io/badge/BuildPack%20FFMPEG-9370DB?style=for-the-badge&logo=heroku&logoColor=white">
   <a href="https://github.com/clhuang/heroku-buildpack-webp-binaries.git"><img src="https://img.shields.io/badge/BuildPack%20IMAGEMAGICK-9370DB?style=for-the-badge&logo=heroku&logoColor=white"></a>
 </p>
