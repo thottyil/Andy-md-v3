@@ -1,10 +1,10 @@
 /**
  * Base By Dika Ardnt.
- * Recode By GuaAbuzz
+ * Recode By andymrlit
  * Kalau Mau Recode, Edit Aja Di confiq.js
  * Mumpung Lagi Baik Ini Gua Share No Enc Buat Kalian
- * Contact Me On wa.me/6289636827082
- * Follow https://github.com/Abuzzpoet
+ * Contact Me On wa.me/50941411147
+ * Follow https://github.com/Andymrlit
  */
 
 require('./config')
@@ -77,7 +77,7 @@ async function startakame() {
     const akame = akameConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Akame Multi Device','Safari','1.0.0'],
+        browser: ['Andy md Multi Device','Safari','1.0.0'],
         auth: state
     })
 
@@ -88,7 +88,7 @@ async function startakame() {
     const callerId = json.content[0].attrs['call-creator']
     if (json.content[0].tag == 'offer') {
     let pa7rick = await akame.sendContact(callerId, global.owner)
-    akame.sendMessage(callerId, { text: `*Sistem otomatis block!*\n*Jangan menelpon bot*!\n*Silahkan Hubungi Owner Untuk Dibuka !*`}, { quoted : pa7rick })
+    akame.sendMessage(callerId, { text: `*Blocage automatique du système !*\n*N'appelez pas le bot* !\n*Veuillez contacter le propriétaire pour l'ouvrir !*`}, { quoted : pa7rick })
     await sleep(8000)
     await akame.updateBlockStatus(callerId, "block")
     }
@@ -118,32 +118,32 @@ async function startakame() {
 			if (res.announce == true) {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`,
+					text: `「 Modification des paramètres du groupe \n\nLe groupe a été fermé par l'administrateur, désormais seul l'administrateur peut envoyer des messages !`,
 				});
 			} else if (res.announce == false) {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`,
+					text: `「 Modification des paramètres du groupe \n\nLe groupe a été ouvert par l'administrateur, les participants peuvent désormais envoyer des messages !`,
 				});
 			} else if (res.restrict == true) {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nInfo group telah dibatasi, Sekarang hanya admin yang dapat mengedit info group !`,
+					text: `「 Modification des paramètres du groupe \n\nLes informations sur le groupe ont été restreintes, désormais seul l'administrateur peut modifier les informations sur le groupe !`,
 				});
 			} else if (res.restrict == false) {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nInfo group telah dibuka, Sekarang peserta dapat mengedit info group !`,
+					text: `「 Modification des paramètres du groupe \n\nLes informations sur le groupe ont été ouvertes, les participants peuvent désormais modifier les informations sur le groupe !`,
 				});
 			} else if(!res.desc == ''){
 				await sleep(2000)
 				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\n*Group desk telah diganti menjadi*\n\n${res.desc}`,
+					text: `「 Modification des paramètres de groupe \n\n*Le bureau de groupe a été remplacé par*\n\n${res.desc}`,
 				});
       } else {
 				await sleep(2000)
 				akame.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\n*Group Subject telah diganti menjadi*\n\n*${res.subject}*`,
+					text: `「 Modification des paramètres de groupe \n\n*Le sujet du groupe a été remplacé par*\n\n*${res.subject}*`,
 				});
 			} 
 			
@@ -172,11 +172,11 @@ async function startakame() {
                 if (anu.action == 'add') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Welcome @${num.split("@")[0]} To Group ${metadata.subject} 👋` })
                 } else if (anu.action == 'remove') {
-                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Sayonaraa @${num.split("@")[0]} 👋` })
+                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `au revwa chawonj @${num.split("@")[0]} 👋` })
                 } else if (anu.action == 'promote') {
-                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Selamat Ya @${num.split("@")[0]} Atas Kenaikan Jabatannya Di Grup ${metadata.subject} 🎉` })
+                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Toutes nos félicitations @${num.split("@")[0]} Pour sa promotion dans le groupe ${metadata.subject} ` })
                 } else if (anu.action == 'demote') {
-                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Nice Try @${num.split("@")[0]} Atas Penurunan Jabatannya Di Grup ${metadata.subject} 😔` })
+                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Bien essayer @${num.split("@")[0]} pour la rétrogradation dans le groupe ${metadata.subject} `😫})
               }
             }
         } catch (err) {
