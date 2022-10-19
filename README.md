@@ -53,7 +53,7 @@ Scan qr code from the above button, u can pay through GooglePay, Paytm, PhonePe 
 
 # Setup For Deployment 👇
 
-- FORK THE REPOSITORY [Here](https://github.com/andymrlit/Andy-md-v3/fork)
+- FORK THE REPOSITORY [Here](https://github.com/Hackerlit/Andy-md-v3/fork)
 
 ## `Scan QR Code For Session`
 [![AndyMd-V2](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@mrlit/ANDY-BOT-Md?v=1)
