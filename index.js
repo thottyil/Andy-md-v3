@@ -176,7 +176,7 @@ async function startakame() {
                 } else if (anu.action == 'promote') {
                     akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Toutes nos félicitations @${num.split("@")[0]} Pour sa promotion dans le groupe ${metadata.subject} ` })
                 } else if (anu.action == 'demote') {
-                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Bien essayer @${num.split("@")[0]} pour la rétrogradation dans le groupe ${metadata.subject} `😫})
+                    akame.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Bien essayer @${num.split("@")[0]} pour la rétrogradation dans le groupe ${metadata.subject} ` })
               }
             }
         } catch (err) {
